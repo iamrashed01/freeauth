@@ -16,9 +16,7 @@ exports.registerController = async (req, res) => {
     return errorSend(res, 400, error.details[0].message);
   }
 
-  console.log('finding user');
   let user = await User.findOne({ email: req.body.email });
-  console.log('here is user', user);
   if (user) {
     return errorSend(res, 400, 'User already exists');
   }
