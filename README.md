@@ -1,11 +1,8 @@
-### BDJOBS
+### FREEAUTH
 
-_*BDJOBS* Demo project for learning_
+_*FREEAUTH* Demo project for learners_
 
-
-User part | Admin part
------------- | -------------
-using nextjs 1 | Nodejs :+1:
-tailwindCss | ExpressJs
-react-query | Mongoose
- _ | MongoDB
+Nodejs :+1:
+ExpressJs
+Mongoose
+MongoDB
